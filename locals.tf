@@ -15,5 +15,21 @@ locals {
       topics             = ["github", "terraform"]
       visibility         = "public"
     }
+
+    "PoC-GitOps-Terraform-aws-network" = {
+      description        = "Automation for AWS"
+      gitignore_template = "Terraform"
+      name               = "PoC-GitOps-Terraform-aws-network"
+      topics             = ["aws", "terraform"]
+      visibility         = "public"
+    }
+
+    "PoC-GitOps-Terraform-aws-cluster" = {
+      description        = "Automation for AWS"
+      gitignore_template = "Terraform"
+      name               = "PoC-GitOps-Terraform-aws-cluster"
+      topics             = ["aws", "terraform"]
+      visibility         = "public"
+    }
   }
 }
