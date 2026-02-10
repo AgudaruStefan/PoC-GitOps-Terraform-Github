@@ -31,5 +31,13 @@ locals {
       topics             = ["aws", "terraform"]
       visibility         = "public"
     }
+
+    "PoC-GitOps-Terraform-service" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "PoC-GitOps-Terraform-service"
+      topics             = ["service", "go"]
+      visibility         = "public"
+    }
   }
 }
